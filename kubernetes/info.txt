@@ -1,0 +1,14 @@
+-- Tested on
+CentOS Linux release 7.9.2009 (Core)
+CentOS Linux release 8.5.2111
+
+
+
+-- Usage
+bash init_kubernetes.sh {master|node|token}
+bash init_kubernetes.sh {check}
+bash init_kubernetes.sh {status}
+bash init_kubernetes.sh {flannel|delete_flannel}
+bash init_kubernetes.sh {calico|delete_calico}
+bash init_kubernetes.sh {test|delete_test}
+bash init_kubernetes.sh {help}

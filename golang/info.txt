@@ -1,0 +1,11 @@
+https://golang.google.cn/dl/
+
+SET CGO_ENABLED=0
+SET GOOS=linux
+SET GOARCH=amd64
+
+go env CGO_ENABLED
+go env GOOS
+go env GOARCH
+
+https://stackoverflow.com/questions/18207772/how-to-wait-for-all-goroutines-to-finish-without-using-time-sleep
